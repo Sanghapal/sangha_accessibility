@@ -6,18 +6,20 @@ require 'sangha_accessibility/version'
 Gem::Specification.new do |spec|
   spec.name          = "sangha_accessibility"
   spec.version       = SanghaAccessibility::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Sanghapal Bhowate"]
+  spec.email         = ["sanghapalbhowate89@gmail.com"]
+  spec.description   = %q{trial gem}
+  spec.summary       = %q{Write a gem summary}
+  spec.homepage      = "http://github.com/Sanghapal/sangha_accessibility"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = ["lib/sangha_accessibility.rb", "lib/sangha_accessibility/translator.rb"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency('activemodel', '~> 4.0')
+  spec.add_dependency('actionpack', '~> 4.0')
 end
