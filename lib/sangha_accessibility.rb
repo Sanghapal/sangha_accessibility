@@ -1,10 +1,5 @@
 require "sangha_accessibility/version"
 require 'action_view'
-# require 'sangha_accessibility/action_controller/filters'
-# require 'sangha_accessibility/action_view/helpers'
-
-# require 'sangha_accessibility/railtie' if defined?(Rails)
-
 
 module SanghaAccessibility::ActionView::Helpers
   class Base
