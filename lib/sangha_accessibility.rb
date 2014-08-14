@@ -1,4 +1,4 @@
-require "sangha_accessibility/version"
+require 'sangha_accessibility/version'
 require 'action_view'
 
 module SanghaAccessibility::ActionView::Helpers
