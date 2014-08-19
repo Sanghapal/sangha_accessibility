@@ -7,4 +7,4 @@ module SanghaAccessibility
   autoload :Helpers
 end
 
-require 'sangha_accessibility/railtie' if defined?(Rails)
+# require 'sangha_accessibility/railtie' if defined?(Rails)
