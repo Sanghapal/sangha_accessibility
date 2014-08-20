@@ -1,6 +1,7 @@
 require 'sangha_accessibility/version'
-require 'action_view/helpers'
-require 'action_view/context'
+require 'sangha_accessibility/action_view/helpers'
+# require 'action_view/helpers'
+# require 'action_view/context'
 
 module SanghaAccessibility
   extend ActiveSupport::Autoload
