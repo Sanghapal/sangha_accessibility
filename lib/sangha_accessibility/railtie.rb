@@ -7,9 +7,9 @@ module SanghaAccessibility
         include SanghaAccessibility::ActionView::Helpers
       end
 
-      ActiveSupport.on_load :action_controller do
-        include SanghaAccessibility::ActionController::Filters
-      end
+#      ActiveSupport.on_load :action_controller do
+#        include SanghaAccessibility::ActionController::Filters
+#      end
     end
   end
 end

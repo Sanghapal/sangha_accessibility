@@ -1,5 +1,5 @@
-# require 'action_view/helpers'
-# require 'action_view/context'
+require 'action_view/helpers'
+require 'action_view/context'
 
 module SanghaAccessibility::ActionView::Helpers
   class PGen
