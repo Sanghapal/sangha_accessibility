@@ -1,6 +1,4 @@
-module SanghaAccessibility
-  module ActionView
-    module Helpers
+module SanghaAccessibility::ActionView::Helpers
       class PGen
         include ActionView::Helpers
         include ActionView::Context
@@ -16,6 +14,4 @@ module SanghaAccessibility
           content_tag(:p, value)
         end
       end
-    end
-  end  
 end
