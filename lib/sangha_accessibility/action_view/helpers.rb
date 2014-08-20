@@ -1,7 +1,7 @@
 # require 'action_view/helpers'
 # require 'action_view/context'
 
-m odule SanghaAccessibility::ActionView::Helpers
+module SanghaAccessibility::ActionView::Helpers
   class PGen
     include ActionView::Helpers
     include ActionView::Context
