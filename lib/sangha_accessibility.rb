@@ -1,10 +1,11 @@
 require 'sangha_accessibility/version'
 require 'sangha_accessibility/action_view/helpers'
+require 'sangha_accessibility/railtie' if defined?(Rails)
 
 module SanghaAccessibility
-#  extend ActiveSupport::Autoload
+  extend ActiveSupport::Autoload
   
-#l  autoload :Helpers
+  autoload :Helpers
 end
 
-require 'sangha_accessibility/railtie' if defined?(Rails)
+

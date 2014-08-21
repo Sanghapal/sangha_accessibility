@@ -1,3 +1,3 @@
 module SanghaAccessibility
-  VERSION = "0.2.4"
+  VERSION = "0.4.3"
 end
