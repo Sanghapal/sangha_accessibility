@@ -7,6 +7,10 @@ module SanghaAccessibility
       def p_for(value)
         content_tag(:p, value)
       end
+
+      def button_for(name = nil, options = nil, html_options = nil)
+        button_to("Submit", "https://www.google.com", {id: "btn_1", remote: true})
+      end
     end
   end
 end
